@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,48 +16,77 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRW-Ni-rkb">
-                                <rect key="frame" x="186" y="88" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="weOcean" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRW-Ni-rkb">
+                                <rect key="frame" x="100" y="94" width="214" height="55"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="45"/>
                                 <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ay6-0A-9DJ">
-                                <rect key="frame" x="160" y="191" width="95" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Opportunities"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ay6-0A-9DJ">
+                                <rect key="frame" x="140" y="209" width="134" height="36"/>
+                                <color key="backgroundColor" red="0.24537067076206753" green="1" blue="0.75216873881541102" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <state key="normal" title="Opportunities">
+                                    <color key="titleColor" red="0.0" green="0.99063824450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <segue destination="XHO-mf-4kh" kind="show" id="LPB-hj-lEr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72T-WI-V3I">
-                                <rect key="frame" x="182" y="340" width="50" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72T-WI-V3I">
+                                <rect key="frame" x="170" y="325" width="74" height="36"/>
+                                <color key="backgroundColor" red="0.2453706708" green="1" blue="0.75216873880000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <state key="normal" title="Donate"/>
                                 <connections>
                                     <segue destination="wG4-fl-uZ8" kind="show" id="Xdd-zX-2gz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jo7-IH-ftj">
-                                <rect key="frame" x="126" y="496" width="163" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jo7-IH-ftj">
+                                <rect key="frame" x="90" y="441" width="234" height="36"/>
+                                <color key="backgroundColor" red="0.2453706708" green="1" blue="0.75216873880000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <state key="normal" title="Information on Pollution"/>
                                 <connections>
                                     <segue destination="RjR-Lu-MNu" kind="show" id="BMg-A7-nPK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhY-Ti-o8S">
-                                <rect key="frame" x="150" y="656" width="115" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhY-Ti-o8S">
+                                <rect key="frame" x="120" y="557" width="174" height="36"/>
+                                <color key="backgroundColor" red="0.2453706708" green="1" blue="0.75216873880000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <state key="normal" title="Other Resources"/>
                                 <connections>
                                     <segue destination="3Ii-4t-RK8" kind="show" id="uHi-Ze-37T"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pollutionPictureOne" translatesAutoresizingMaskIntoConstraints="NO" id="RNr-Un-Vlh">
+                                <rect key="frame" x="87" y="683" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.2453706708" green="1" blue="0.75216873880000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.30635640235759198" green="0.43844324747038821" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JhY-Ti-o8S" secondAttribute="trailing" constant="120" id="8eB-fB-icB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BRW-Ni-rkb" secondAttribute="trailing" constant="100" id="Ed7-NY-fh0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="72T-WI-V3I" secondAttribute="trailing" constant="170" id="K72-PH-4Ho"/>
+                            <constraint firstItem="ay6-0A-9DJ" firstAttribute="top" secondItem="BRW-Ni-rkb" secondAttribute="bottom" constant="60" id="QAe-Qb-Ffh"/>
+                            <constraint firstItem="JhY-Ti-o8S" firstAttribute="top" secondItem="jo7-IH-ftj" secondAttribute="bottom" constant="80" id="QGC-Zd-rZJ"/>
+                            <constraint firstItem="72T-WI-V3I" firstAttribute="top" secondItem="ay6-0A-9DJ" secondAttribute="bottom" constant="80" id="XEB-jw-bxf"/>
+                            <constraint firstItem="jo7-IH-ftj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="bpg-Ag-hUe"/>
+                            <constraint firstItem="JhY-Ti-o8S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="cjh-Rz-Xpl"/>
+                            <constraint firstItem="BRW-Ni-rkb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="iL7-Lk-dcT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ay6-0A-9DJ" secondAttribute="trailing" constant="140" id="oQe-Mz-zbD"/>
+                            <constraint firstItem="jo7-IH-ftj" firstAttribute="top" secondItem="72T-WI-V3I" secondAttribute="bottom" constant="80" id="oX3-3p-2AV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jo7-IH-ftj" secondAttribute="trailing" constant="90" id="sfA-tn-139"/>
+                            <constraint firstItem="72T-WI-V3I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="uaL-51-ipG"/>
+                            <constraint firstItem="BRW-Ni-rkb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="uzs-hA-S8I"/>
+                            <constraint firstItem="ay6-0A-9DJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="wjK-TU-y0G"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="label1" destination="BRW-Ni-rkb" id="xuO-ry-BmD"/>
@@ -155,6 +184,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="5Li-OO-CMC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="7xw-IJ-hZB"/>
@@ -232,6 +262,7 @@
     </scenes>
     <resources>
         <image name="Screen Shot 2021-07-20 at 2.29.12 PM" width="915" height="601"/>
+        <image name="pollutionPictureOne" width="672" height="1024"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
