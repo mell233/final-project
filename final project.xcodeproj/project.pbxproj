@@ -16,6 +16,7 @@
 		84FFC8EE26A740C5006C6091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FFC8EC26A740C5006C6091 /* LaunchScreen.storyboard */; };
 		84FFC8F926A740C5006C6091 /* final_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC8F826A740C5006C6091 /* final_projectTests.swift */; };
 		84FFC90426A740C6006C6091 /* final_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC90326A740C6006C6091 /* final_projectUITests.swift */; };
+		CE1A14B226A747C7005CD1BB /* opprotunitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A14B126A747C7005CD1BB /* opprotunitesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		84FFC8FF26A740C6006C6091 /* final projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "final projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FFC90326A740C6006C6091 /* final_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_projectUITests.swift; sourceTree = "<group>"; };
 		84FFC90526A740C6006C6091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1A14B126A747C7005CD1BB /* opprotunitesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = opprotunitesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				84FFC8DE26A740C0006C6091 /* AppDelegate.swift */,
 				84FFC8E026A740C0006C6091 /* SceneDelegate.swift */,
 				84FFC8E226A740C0006C6091 /* ViewController.swift */,
+				CE1A14B126A747C7005CD1BB /* opprotunitesViewController.swift */,
 				84FFC8E426A740C0006C6091 /* Main.storyboard */,
 				84FFC8EA26A740C5006C6091 /* Assets.xcassets */,
 				84FFC8EC26A740C5006C6091 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				84FFC8E326A740C0006C6091 /* ViewController.swift in Sources */,
 				84FFC8DF26A740C0006C6091 /* AppDelegate.swift in Sources */,
+				CE1A14B226A747C7005CD1BB /* opprotunitesViewController.swift in Sources */,
 				84FFC8E926A740C0006C6091 /* final_project.xcdatamodeld in Sources */,
 				84FFC8E126A740C0006C6091 /* SceneDelegate.swift in Sources */,
 			);
