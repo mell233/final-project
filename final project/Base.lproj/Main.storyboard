@@ -212,10 +212,10 @@
             </objects>
             <point key="canvasLocation" x="95.652173913043484" y="802.90178571428567"/>
         </scene>
-        <!--Opprotunites View Controller-->
+        <!--Pollution Info Controller-->
         <scene sceneID="bHM-Lx-OrB">
             <objects>
-                <viewController id="RjR-Lu-MNu" customClass="opprotunitesViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RjR-Lu-MNu" customClass="pollutionInfoController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RCB-JM-Owd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
