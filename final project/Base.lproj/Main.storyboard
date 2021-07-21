@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -142,10 +142,10 @@
             </objects>
             <point key="canvasLocation" x="937.68115942028987" y="81.696428571428569"/>
         </scene>
-        <!--Opprotunites View Controller-->
+        <!--Donate Controller-->
         <scene sceneID="P1o-KV-3ST">
             <objects>
-                <viewController id="wG4-fl-uZ8" customClass="opprotunitesViewController" customModule="final_project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wG4-fl-uZ8" customClass="donateController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Kla-PX-80j">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
@@ -161,29 +161,47 @@
                                 <rect key="frame" x="20" y="108" width="374" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">The Ocean Cleanup, a non-profit, develops advanced technology to get rid of plastic in coeans. Their goal is a 90% reduction of plastic in ocean. https://theoceancleanup.com/donate/</string>
+                                <string key="text">The Ocean Cleanup, a non-profit, develops advanced technology to get rid of plastic in coeans. Their goal is a 90% reduction of plastic in ocean. </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZWK-RW-L7r">
-                                <rect key="frame" x="36" y="193" width="343" height="94"/>
+                                <rect key="frame" x="36" y="289" width="343" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">The ocean conservacy focuses on long-term solutions that promote a healthy ocean, abundant wildlife and thriving coastal communities. https://oceanconservancy.org/about/</string>
+                                <string key="text">The ocean conservacy focuses on long-term solutions that promote a healthy ocean, abundant wildlife and thriving coastal communities.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yCj-yF-CfV">
-                                <rect key="frame" x="10" y="295" width="394" height="212"/>
+                                <rect key="frame" x="10" y="504" width="394" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Plastic Oceans' goal is to end plastic pollution and to foster sustainable communities. They believe in acting locally through four key pillars- Education, Activism, Advocacy and Science to create global change. Their mission is to inspire and incite action that can lead to changes in consumer behavior, corporate practices and public policy. https://plasticoceans.org/who-we-are/</string>
+                                <string key="text">Plastic Oceans' goal is to end plastic pollution and to foster sustainable communities. They believe in acting locally through four key pillars- Education, Activism, Advocacy and Science to create global change. Their mission is to inspire and incite action that can lead to changes in consumer behavior, corporate practices and public policy. </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcp-wG-Uks">
+                                <rect key="frame" x="113" y="172" width="256" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="https://theoceancleanup.com/donate/"/>
+                                <connections>
+                                    <action selector="linkPop1:" destination="wG4-fl-uZ8" eventType="touchUpInside" id="ETC-8g-FDi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGf-tZ-hC1">
+                                <rect key="frame" x="80" y="391" width="255" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" https://oceanconservancy.org/about/"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfO-4V-VMp">
+                                <rect key="frame" x="91" y="642" width="262" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="https://plasticoceans.org/who-we-are/"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5Li-OO-CMC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
