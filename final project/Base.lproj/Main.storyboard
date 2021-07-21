@@ -18,14 +18,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="weOcean" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRW-Ni-rkb">
-                                <rect key="frame" x="100" y="50" width="214" height="55"/>
+                                <rect key="frame" x="100" y="50" width="214" height="56"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="0.0" height="-2"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ay6-0A-9DJ">
-                                <rect key="frame" x="140" y="165" width="134" height="36"/>
+                                <rect key="frame" x="140" y="166" width="134" height="36"/>
                                 <color key="backgroundColor" red="0.24537067076206753" green="1" blue="0.75216873881541102" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <state key="normal" title="Opportunities">
@@ -36,7 +37,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72T-WI-V3I">
-                                <rect key="frame" x="170" y="281" width="74" height="36"/>
+                                <rect key="frame" x="170" y="282" width="74" height="36"/>
                                 <color key="backgroundColor" red="0.2453706708" green="1" blue="0.75216873880000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <state key="normal" title="Donate"/>
@@ -45,7 +46,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jo7-IH-ftj">
-                                <rect key="frame" x="90" y="397" width="234" height="36"/>
+                                <rect key="frame" x="90" y="398" width="234" height="36"/>
                                 <color key="backgroundColor" red="0.2453706708" green="1" blue="0.75216873880000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <state key="normal" title="Information on Pollution"/>
@@ -54,7 +55,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhY-Ti-o8S">
-                                <rect key="frame" x="120" y="513" width="174" height="36"/>
+                                <rect key="frame" x="120" y="514" width="174" height="36"/>
                                 <color key="backgroundColor" red="0.2453706708" green="1" blue="0.75216873880000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <state key="normal" title="Other Resources"/>
@@ -63,7 +64,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pollutionPictureOne" translatesAutoresizingMaskIntoConstraints="NO" id="RNr-Un-Vlh">
-                                <rect key="frame" x="87" y="653" width="240" height="198"/>
+                                <rect key="frame" x="84" y="610" width="240" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.2453706708" green="1" blue="0.75216873880000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -126,24 +127,32 @@
                                     <segue destination="6WW-ia-Zh8" kind="show" id="5di-EV-EgA"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Opportunities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IfG-6Q-PqH">
-                                <rect key="frame" x="119" y="48" width="177" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAL-6A-ACS">
-                                <rect key="frame" x="268" y="778" width="126" height="30"/>
+                                <rect key="frame" x="144" y="778" width="127" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back to main page"/>
+                                <state key="normal" title="Back to Main Page">
+                                    <color key="titleColor" systemColor="systemPurpleColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="IAT-Lf-AMx"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opportunities" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IfG-6Q-PqH">
+                                <rect key="frame" x="100" y="50" width="214" height="38"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="systemTealColor"/>
+                                <size key="shadowOffset" width="0.0" height="-2"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="P56-Rn-818"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IfG-6Q-PqH" firstAttribute="leading" secondItem="P56-Rn-818" secondAttribute="leading" constant="100" id="8TE-R1-Ffx"/>
+                            <constraint firstItem="IfG-6Q-PqH" firstAttribute="top" secondItem="P56-Rn-818" secondAttribute="top" constant="50" id="WQc-Md-f69"/>
+                            <constraint firstItem="P56-Rn-818" firstAttribute="trailing" secondItem="IfG-6Q-PqH" secondAttribute="trailing" constant="100" id="qR6-zq-XPY"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Jxy-eP-qtH"/>
                 </viewController>
@@ -159,12 +168,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Donate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fH1-zm-0dk">
-                                <rect key="frame" x="160" y="64" width="94" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Donate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fH1-zm-0dk">
+                                <rect key="frame" x="140" y="50" width="134" height="38"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="systemTealColor"/>
+                                <size key="shadowOffset" width="0.0" height="-2"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PIv-W4-Jw7">
                                 <rect key="frame" x="20" y="108" width="374" height="128"/>
@@ -212,9 +222,11 @@
                                 <state key="normal" title="https://plasticoceans.org/who-we-are/"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wX0-eI-Jey">
-                                <rect key="frame" x="268" y="778" width="126" height="30"/>
+                                <rect key="frame" x="159" y="766" width="127" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back to main page"/>
+                                <state key="normal" title="Back to Main Page">
+                                    <color key="titleColor" systemColor="systemPurpleColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="SbP-tU-EL1"/>
                                 </connections>
@@ -222,6 +234,11 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5Li-OO-CMC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fH1-zm-0dk" firstAttribute="top" secondItem="5Li-OO-CMC" secondAttribute="top" constant="50" id="CNr-Yb-iWr"/>
+                            <constraint firstItem="5Li-OO-CMC" firstAttribute="trailing" secondItem="fH1-zm-0dk" secondAttribute="trailing" constant="140" id="Jwj-7e-Gws"/>
+                            <constraint firstItem="fH1-zm-0dk" firstAttribute="leading" secondItem="5Li-OO-CMC" secondAttribute="leading" constant="140" id="aHP-X2-Zhf"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7xw-IJ-hZB"/>
                 </viewController>
@@ -237,12 +254,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Information on Pollution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XsI-94-VAS">
-                                <rect key="frame" x="56" y="40" width="303" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Information on Pollution" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XsI-94-VAS">
+                                <rect key="frame" x="30" y="50" width="354" height="38"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="systemTealColor"/>
+                                <size key="shadowOffset" width="0.0" height="-2"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oceanPollutionInfographicOne" translatesAutoresizingMaskIntoConstraints="NO" id="Y9Z-Rd-Jw1">
                                 <rect key="frame" x="28" y="52" width="358" height="348"/>
@@ -267,16 +285,27 @@
                                 <state key="normal" title="https://www.conservation.org/stories/ocean-pollution-11-facts-you-need-to-know"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsu-Ac-zH9">
-                                <rect key="frame" x="268" y="778" width="126" height="30"/>
+                                <rect key="frame" x="144" y="778" width="127" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back to main page"/>
+                                <state key="normal" title="Back to Main Page">
+                                    <color key="titleColor" systemColor="systemPurpleColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="Jsc-KG-gKS"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oceanPollutionInfographicTwo" translatesAutoresizingMaskIntoConstraints="NO" id="vDU-HH-HMp">
+                                <rect key="frame" x="40" y="503" width="352" height="258"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nSg-fU-Sg2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nSg-fU-Sg2" firstAttribute="trailing" secondItem="XsI-94-VAS" secondAttribute="trailing" constant="30" id="kVy-Io-Zcu"/>
+                            <constraint firstItem="XsI-94-VAS" firstAttribute="leading" secondItem="nSg-fU-Sg2" secondAttribute="leading" constant="30" id="mPX-gF-fUK"/>
+                            <constraint firstItem="XsI-94-VAS" firstAttribute="top" secondItem="nSg-fU-Sg2" secondAttribute="top" constant="50" id="pRx-aR-7IQ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HzI-3T-PgJ"/>
                 </viewController>
@@ -292,54 +321,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBj-lj-wZQ">
-                                <rect key="frame" x="99" y="44" width="216" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other Resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBj-lj-wZQ">
+                                <rect key="frame" x="80" y="50" width="254" height="38"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="systemTealColor"/>
+                                <size key="shadowOffset" width="0.0" height="-2"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWB-mH-ANT">
-                                <rect key="frame" x="104" y="150" width="206" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWB-mH-ANT">
+                                <rect key="frame" x="100" y="128" width="214" height="30"/>
                                 <state key="normal" title="https://theoceancleanup.com/"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRJ-16-wxK">
-                                <rect key="frame" x="148" y="242" width="119" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRJ-16-wxK">
+                                <rect key="frame" x="140" y="218" width="134" height="30"/>
                                 <state key="normal" title="https://water.org/"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2J-f1-hpb">
-                                <rect key="frame" x="75" y="331" width="265" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2J-f1-hpb">
+                                <rect key="frame" x="70" y="308" width="274" height="30"/>
                                 <state key="normal" title="https://www.bigblueoceancleanup.org/"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FB-14-UNb">
-                                <rect key="frame" x="16" y="402" width="382" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FB-14-UNb">
+                                <rect key="frame" x="10" y="398" width="394" height="48"/>
                                 <state key="normal">
                                     <string key="title">http://cleanbodiesofwater.org/wp-content/uploads/2014/11/Clean-Bodies-of-Water-Microbeads-contributing-to-plastic-pollution-infographic-5gyres.jpg </string>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGn-oA-wKq">
-                                <rect key="frame" x="20" y="559" width="374" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGn-oA-wKq">
+                                <rect key="frame" x="20" y="506" width="374" height="30"/>
                                 <state key="normal" title="https://rivercleaning.com/river-cleaning-system/"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovW-MR-rqP">
-                                <rect key="frame" x="29" y="632" width="365" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovW-MR-rqP">
+                                <rect key="frame" x="20" y="596" width="374" height="30"/>
                                 <state key="normal" title="https://thegreatbubblebarrier.com/"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYH-uA-D19">
-                                <rect key="frame" x="140" y="700" width="135" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYH-uA-D19">
+                                <rect key="frame" x="130" y="686" width="154" height="30"/>
                                 <state key="normal" title="http://ichthion.com/"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbD-Rp-3kA">
-                                <rect key="frame" x="272" y="778" width="126" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back to main page"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbD-Rp-3kA">
+                                <rect key="frame" x="140" y="776" width="134" height="30"/>
+                                <state key="normal" title="Back to Main Page">
+                                    <color key="titleColor" systemColor="systemPurpleColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="Zwu-RH-qPd"/>
                                 </connections>
@@ -347,6 +371,35 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1oG-Oe-e68"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DbD-Rp-3kA" firstAttribute="leading" secondItem="1oG-Oe-e68" secondAttribute="leading" constant="140" id="1hr-RY-lvv"/>
+                            <constraint firstItem="HWB-mH-ANT" firstAttribute="leading" secondItem="1oG-Oe-e68" secondAttribute="leading" constant="100" id="5O3-zE-amH"/>
+                            <constraint firstItem="PBj-lj-wZQ" firstAttribute="top" secondItem="1oG-Oe-e68" secondAttribute="top" constant="50" id="6ko-eS-h09"/>
+                            <constraint firstItem="sRJ-16-wxK" firstAttribute="top" secondItem="HWB-mH-ANT" secondAttribute="bottom" constant="60" id="735-dJ-w2d"/>
+                            <constraint firstItem="iGn-oA-wKq" firstAttribute="top" secondItem="8FB-14-UNb" secondAttribute="bottom" constant="60" id="9fq-3t-qAa"/>
+                            <constraint firstItem="P2J-f1-hpb" firstAttribute="top" secondItem="sRJ-16-wxK" secondAttribute="bottom" constant="60" id="CiJ-tF-1ZS"/>
+                            <constraint firstItem="PBj-lj-wZQ" firstAttribute="leading" secondItem="1oG-Oe-e68" secondAttribute="leading" constant="80" id="Dgs-3X-2eZ"/>
+                            <constraint firstItem="sRJ-16-wxK" firstAttribute="leading" secondItem="1oG-Oe-e68" secondAttribute="leading" constant="140" id="Dj9-LY-JRc"/>
+                            <constraint firstItem="1oG-Oe-e68" firstAttribute="trailing" secondItem="zYH-uA-D19" secondAttribute="trailing" constant="130" id="JoJ-El-le8"/>
+                            <constraint firstItem="zYH-uA-D19" firstAttribute="leading" secondItem="1oG-Oe-e68" secondAttribute="leading" constant="130" id="NzV-Kp-kLf"/>
+                            <constraint firstItem="ovW-MR-rqP" firstAttribute="top" secondItem="iGn-oA-wKq" secondAttribute="bottom" constant="60" id="SYU-Yv-h34"/>
+                            <constraint firstItem="1oG-Oe-e68" firstAttribute="trailing" secondItem="P2J-f1-hpb" secondAttribute="trailing" constant="70" id="TBS-6j-hSA"/>
+                            <constraint firstItem="1oG-Oe-e68" firstAttribute="trailing" secondItem="8FB-14-UNb" secondAttribute="trailing" constant="10" id="b73-hD-4Bd"/>
+                            <constraint firstItem="1oG-Oe-e68" firstAttribute="trailing" secondItem="DbD-Rp-3kA" secondAttribute="trailing" constant="140" id="bA9-f7-PBV"/>
+                            <constraint firstItem="1oG-Oe-e68" firstAttribute="trailing" secondItem="sRJ-16-wxK" secondAttribute="trailing" constant="140" id="c2x-lw-aHd"/>
+                            <constraint firstItem="1oG-Oe-e68" firstAttribute="trailing" secondItem="iGn-oA-wKq" secondAttribute="trailing" constant="20" id="cMh-pB-6tN"/>
+                            <constraint firstItem="1oG-Oe-e68" firstAttribute="trailing" secondItem="HWB-mH-ANT" secondAttribute="trailing" constant="100" id="dfF-da-B5Q"/>
+                            <constraint firstItem="P2J-f1-hpb" firstAttribute="leading" secondItem="1oG-Oe-e68" secondAttribute="leading" constant="70" id="fuQ-dW-AAV"/>
+                            <constraint firstItem="iGn-oA-wKq" firstAttribute="leading" secondItem="1oG-Oe-e68" secondAttribute="leading" constant="20" id="isw-pI-5C3"/>
+                            <constraint firstItem="1oG-Oe-e68" firstAttribute="trailing" secondItem="ovW-MR-rqP" secondAttribute="trailing" constant="20" id="jdQ-g8-GCs"/>
+                            <constraint firstItem="1oG-Oe-e68" firstAttribute="trailing" secondItem="PBj-lj-wZQ" secondAttribute="trailing" constant="80" id="jjv-sJ-vTW"/>
+                            <constraint firstItem="8FB-14-UNb" firstAttribute="top" secondItem="P2J-f1-hpb" secondAttribute="bottom" constant="60" id="kKG-Do-eVH"/>
+                            <constraint firstItem="HWB-mH-ANT" firstAttribute="top" secondItem="PBj-lj-wZQ" secondAttribute="bottom" constant="40" id="pdF-Ip-UeS"/>
+                            <constraint firstItem="zYH-uA-D19" firstAttribute="top" secondItem="ovW-MR-rqP" secondAttribute="bottom" constant="60" id="qLi-bd-Msx"/>
+                            <constraint firstItem="ovW-MR-rqP" firstAttribute="leading" secondItem="1oG-Oe-e68" secondAttribute="leading" constant="20" id="rIH-hp-8SO"/>
+                            <constraint firstItem="DbD-Rp-3kA" firstAttribute="top" secondItem="zYH-uA-D19" secondAttribute="bottom" constant="60" id="sGf-7u-mih"/>
+                            <constraint firstItem="8FB-14-UNb" firstAttribute="leading" secondItem="1oG-Oe-e68" secondAttribute="leading" constant="10" id="sHG-S6-pdL"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="NgI-c8-9Ja"/>
                 </viewController>
@@ -363,9 +416,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmc-dE-nfv">
-                                <rect key="frame" x="268" y="778" width="126" height="30"/>
+                                <rect key="frame" x="144" y="778" width="127" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back to main page"/>
+                                <state key="normal" title="Back to Main Page">
+                                    <color key="titleColor" systemColor="systemPurpleColor"/>
+                                </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="jNg-Ge-7Ka"/>
                                 </connections>
@@ -382,11 +437,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="jNg-Ge-7Ka"/>
+        <segue reference="IAT-Lf-AMx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-07-20 at 2.29.12 PM" width="915" height="601"/>
         <image name="oceanPollutionInfographicOne" width="1650" height="1275"/>
+        <image name="oceanPollutionInfographicTwo" width="328" height="512"/>
         <image name="pollutionPictureOne" width="672" height="1024"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -396,6 +452,12 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
