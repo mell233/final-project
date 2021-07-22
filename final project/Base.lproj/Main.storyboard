@@ -52,7 +52,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <state key="normal" title="Information on Pollution"/>
                                 <connections>
-                                    <segue destination="RjR-Lu-MNu" kind="show" id="BMg-A7-nPK"/>
+                                    <segue destination="RjR-Lu-MNu" kind="show" id="NyB-Dk-s18"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhY-Ti-o8S">
@@ -571,8 +571,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="EK6-jg-6pb"/>
-        <segue reference="V3a-Io-met"/>
-        <segue reference="IAT-Lf-AMx"/>
+        <segue reference="LPB-hj-lEr"/>
+        <segue reference="Jsc-KG-gKS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-07-20 at 2.29.12 PM" width="915" height="601"/>
