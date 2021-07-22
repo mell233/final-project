@@ -15,8 +15,7 @@ class ViewController: UIViewController {
     }
 
     
-    @IBAction func julyFifthOpprotunites(_ sender: Any) {
-    }
+    
     
 }
 

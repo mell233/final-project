@@ -33,4 +33,20 @@ class opprotunitesViewController: UIViewController {
 
             self.present(alertController, animated: true, completion: nil)
     }
+    
+    @IBAction func julyTwentyFourthOpprotunity(_ sender: Any) {
+        let alertController = UIAlertController(title: "July 24 cleanup", message:
+                "date: July 24 at 9:00 AM,location: Racine Zoo Beach - North of Goold Street in Racine, WI, website: https://adopt.greatlakes.org/s/cleanupregistration?c__recId=a2o1L000000hrzNQAQ", preferredStyle: .alert)
+            alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+
+            self.present(alertController, animated: true, completion: nil)
+    }
+    
+    @IBAction func julyTwentyFifthOpprotunity(_ sender: Any) {
+        let alertController = UIAlertController(title: "July 25 cleanup", message:
+                "date: July 25 at 10:00 AM, location: Edgewater Beach in Cleveland, OH, website: https://adopt.greatlakes.org/s/cleanupregistration?c__recId=a2o1L000000xWndQAE", preferredStyle: .alert)
+            alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+
+            self.present(alertController, animated: true, completion: nil)
+    }
 }

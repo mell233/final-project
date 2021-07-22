@@ -119,6 +119,16 @@
                                 <rect key="frame" x="20" y="217" width="374" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TzP-In-54T">
+                                <rect key="frame" x="296" y="365" width="30" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="julyFifthOpprotunites:" destination="e4i-Zl-OkK" eventType="touchUpInside" id="Ywp-1d-zVP"/>
+                                    <action selector="julyFifthOpprotunity:" destination="XHO-mf-4kh" eventType="touchUpInside" id="CAE-kC-Sm1"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAL-6A-ACS">
                                 <rect key="frame" x="144" y="778" width="127" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -148,18 +158,21 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTP-y6-x17">
-                                <rect key="frame" x="334" y="375" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TzP-In-54T">
-                                <rect key="frame" x="296" y="365" width="30" height="51"/>
+                                <rect key="frame" x="351" y="364" width="30" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="+"/>
                                 <connections>
-                                    <action selector="julyFifthOpprotunites:" destination="e4i-Zl-OkK" eventType="touchUpInside" id="Ywp-1d-zVP"/>
-                                    <action selector="julyFifthOpprotunity:" destination="XHO-mf-4kh" eventType="touchUpInside" id="CAE-kC-Sm1"/>
+                                    <action selector="julyTwentyFourthOpprotunity:" destination="XHO-mf-4kh" eventType="touchUpInside" id="ICV-SW-cI5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUC-2M-BBC">
+                                <rect key="frame" x="34" y="415" width="30" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="julyTwentyFifthOpprotunity:" destination="XHO-mf-4kh" eventType="touchUpInside" id="Uc4-QG-55H"/>
                                 </connections>
                             </button>
                         </subviews>
