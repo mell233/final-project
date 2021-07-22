@@ -14,7 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet weak var label1: UILabel!
+    
+    @IBAction func julyFifthOpprotunites(_ sender: Any) {
+    }
     
 }
 

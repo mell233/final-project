@@ -17,9 +17,9 @@
 		84FFC8F926A740C5006C6091 /* final_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC8F826A740C5006C6091 /* final_projectTests.swift */; };
 		84FFC90426A740C6006C6091 /* final_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC90326A740C6006C6091 /* final_projectUITests.swift */; };
 		84FFC93226A8683B006C6091 /* donateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC93126A8683B006C6091 /* donateController.swift */; };
-		84FFC93A26A86DD6006C6091 /* pollutionInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC93926A86DD6006C6091 /* pollutionInfoController.swift */; };
 		A713B72A26A8752300DDC45E /* resourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A713B72926A8752300DDC45E /* resourcesViewController.swift */; };
 		CE1A14B226A747C7005CD1BB /* julyOpprotunitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A14B126A747C7005CD1BB /* julyOpprotunitesViewController.swift */; };
+		CEB4B07126A9BCD800281E21 /* pollutionInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4B07026A9BCD800281E21 /* pollutionInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +56,9 @@
 		84FFC90326A740C6006C6091 /* final_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_projectUITests.swift; sourceTree = "<group>"; };
 		84FFC90526A740C6006C6091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FFC93126A8683B006C6091 /* donateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donateController.swift; sourceTree = "<group>"; };
-		84FFC93926A86DD6006C6091 /* pollutionInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pollutionInfoController.swift; sourceTree = "<group>"; };
 		A713B72926A8752300DDC45E /* resourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesViewController.swift; sourceTree = "<group>"; };
 		CE1A14B126A747C7005CD1BB /* julyOpprotunitesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = julyOpprotunitesViewController.swift; sourceTree = "<group>"; };
+		CEB4B07026A9BCD800281E21 /* pollutionInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pollutionInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 				84FFC8EC26A740C5006C6091 /* LaunchScreen.storyboard */,
 				84FFC8EF26A740C5006C6091 /* Info.plist */,
 				84FFC8E726A740C0006C6091 /* final_project.xcdatamodeld */,
-				84FFC93926A86DD6006C6091 /* pollutionInfoController.swift */,
+				CEB4B07026A9BCD800281E21 /* pollutionInfoViewController.swift */,
 			);
 			path = "final project";
 			sourceTree = "<group>";
@@ -276,11 +276,11 @@
 				84FFC8E326A740C0006C6091 /* ViewController.swift in Sources */,
 				84FFC8DF26A740C0006C6091 /* AppDelegate.swift in Sources */,
 				A713B72A26A8752300DDC45E /* resourcesViewController.swift in Sources */,
-				84FFC93A26A86DD6006C6091 /* pollutionInfoController.swift in Sources */,
 				CE1A14B226A747C7005CD1BB /* julyOpprotunitesViewController.swift in Sources */,
 				84FFC8E926A740C0006C6091 /* final_project.xcdatamodeld in Sources */,
 				84FFC8E126A740C0006C6091 /* SceneDelegate.swift in Sources */,
 				84FFC93226A8683B006C6091 /* donateController.swift in Sources */,
+				CEB4B07126A9BCD800281E21 /* pollutionInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

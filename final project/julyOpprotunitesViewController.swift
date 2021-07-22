@@ -26,4 +26,11 @@ class opprotunitesViewController: UIViewController {
     }
     */
 
+    @IBAction func julyTwentyThirdOpprotunity(_ sender: Any) {
+        let alertController = UIAlertController(title: "iOScreator", message:
+                "date: July 23, location: South Shore Park Beach in Milwaukee, WI, website: https://adopt.greatlakes.org/s/cleanupregistration?c__recId=a2o1L000000huJDQAY", preferredStyle: .alert)
+            alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+
+            self.present(alertController, animated: true, completion: nil)
+    }
 }
