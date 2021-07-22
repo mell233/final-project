@@ -92,9 +92,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jM2-Xj-tv2"/>
-                    <connections>
-                        <outlet property="label1" destination="BRW-Ni-rkb" id="xuO-ry-BmD"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -702,8 +699,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="9AK-LE-bpp"/>
-        <segue reference="V3a-Io-met"/>
-        <segue reference="AVW-dT-qkO"/>
+        <segue reference="LPB-hj-lEr"/>
+        <segue reference="Jsc-KG-gKS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-07-20 at 2.29.12 PM" width="915" height="601"/>
