@@ -52,13 +52,18 @@ class opprotunitesViewController: UIViewController {
     
     @IBAction func julyTwentySixthOpportunity(_ sender: Any) {
         let alertController = UIAlertController(title: "July 26 cleanup", message:
-                "date: July 26 at 9:00 AM, location: Lee Street Beach Entrance, website: https://adopt.greatlakes.org/s/cleanupregistration?c__recId=a2o1L000000htgAQAQ", preferredStyle: .alert)
+                "date: July 26 at 9:00 AM, location: Lee Street Beach Entrance in Evanston, IL, website: https://adopt.greatlakes.org/s/cleanupregistration?c__recId=a2o1L000000htgAQAQ", preferredStyle: .alert)
         alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
 
         self.present(alertController, animated: true, completion: nil)
     }
     
-   
+    @IBAction func july31Opportunity(_ sender: Any) {
+        let alertController = UIAlertController(title: "July 26 cleanup", message: "date: July 31 at 10:30 AM, location: Amelia Earhart Park in Hialeah, FL website: https://www.volunteercleanup.org/31161/finish_the_summer_strong_with_a_park_clean-up", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+
+        self.present(alertController, animated: true, completion: nil)
+    }
     
     
 }
