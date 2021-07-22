@@ -108,7 +108,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="July" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UU3-gg-W5x">
-                                <rect key="frame" x="192" y="145" width="31" height="21"/>
+                                <rect key="frame" x="192" y="145" width="41" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -621,6 +621,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="EK6-jg-6pb"/>
         <segue reference="LPB-hj-lEr"/>
-        <segue reference="Zwu-RH-qPd"/>
+        <segue reference="IAT-Lf-AMx"/>
     </inferredMetricsTieBreakers>
 </document>
