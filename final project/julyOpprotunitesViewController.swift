@@ -49,4 +49,16 @@ class opprotunitesViewController: UIViewController {
 
             self.present(alertController, animated: true, completion: nil)
     }
+    
+    @IBAction func julyTwentySixthOpportunity(_ sender: Any) {
+        let alertController = UIAlertController(title: "July 26 cleanup", message:
+                "date: July 26 at 9:00 AM, location: Lee Street Beach Entrance, website: https://adopt.greatlakes.org/s/cleanupregistration?c__recId=a2o1L000000htgAQAQ", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+   
+    
+    
 }
