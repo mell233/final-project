@@ -93,7 +93,6 @@
 		84FFC8D226A740BF006C6091 = {
 			isa = PBXGroup;
 			children = (
-				A713B72926A8752300DDC45E /* resourcesViewController.swift */,
 				84FFC8DD26A740C0006C6091 /* final project */,
 				84FFC8F726A740C5006C6091 /* final projectTests */,
 				84FFC90226A740C6006C6091 /* final projectUITests */,
@@ -114,6 +113,7 @@
 		84FFC8DD26A740C0006C6091 /* final project */ = {
 			isa = PBXGroup;
 			children = (
+				A713B72926A8752300DDC45E /* resourcesViewController.swift */,
 				84FFC8DE26A740C0006C6091 /* AppDelegate.swift */,
 				84FFC96826A9F392006C6091 /* septemberViewController.swift */,
 				84FFC8E026A740C0006C6091 /* SceneDelegate.swift */,
